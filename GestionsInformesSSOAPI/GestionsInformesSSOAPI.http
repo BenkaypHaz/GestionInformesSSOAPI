@@ -1,0 +1,6 @@
+@GestionsInformesSSOAPI_HostAddress = http://localhost:5202
+
+GET {{GestionsInformesSSOAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
