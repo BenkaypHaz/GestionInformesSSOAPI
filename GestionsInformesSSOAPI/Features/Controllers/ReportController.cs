@@ -20,19 +20,22 @@ namespace GestionsInformesSSOAPI.Features.Controllers
         {
             try
             {
+                informeId = 26;
                 var parameters = new ReportParameter[]
-                {
-                new ReportParameter("idInfo", informeId.ToString()) 
+                {       
+                new ReportParameter("idInfo", informeId.ToString()),
+                new ReportParameter("id_informe", informeId.ToString())  
+
                 };
 
                 var reportBytes = await _reportService.GenerateReportAsync("/Reports_GestionInformesSSO/Informe_Calor", parameters);
 
-                return File(reportBytes, "application/pdf", "Informe_Calor.pdf");
-            }
+                return File(reportBytes, "application/pdf", "report.pdf");
+            } 
             catch (Exception ex)
             {
                 return StatusCode(500, new { message = ex.Message });
-            }
-        }
-    }
+            }     
+        }    
+    } 
 }

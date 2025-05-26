@@ -22,7 +22,7 @@ namespace GestionsInformesSSOAPI.Infraestructure.DataBases
         public DbSet<TablasClimaInforme> TablasClimaInforme { get; set; }
         public DbSet<EquipoUtilizadoInforme> EquipoUtilizadoInforme { get; set; }
         public DbSet<RopaUtilizada> RopaUtilizada { get; set; }
-
+        public DbSet<TasaMetabolica> TasaMetabolica { get; set; }
 
     }
 }

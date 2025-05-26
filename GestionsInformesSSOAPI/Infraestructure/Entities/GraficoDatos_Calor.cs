@@ -20,5 +20,7 @@ namespace GestionsInformesSSOAPI.Infraestructure.Entities
         public decimal Humidity { get; set; }
         [Column("id_informe")]
         public int Id_informe { get; set; }
+        [Column("id_area")]
+        public int id_area { get; set; }
     }
 }

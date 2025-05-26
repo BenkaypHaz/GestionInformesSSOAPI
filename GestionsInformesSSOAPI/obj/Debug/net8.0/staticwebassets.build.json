@@ -1,11 +1,331 @@
 {
   "Version": 1,
-  "Hash": "ruo8sCN8WW0LZ2RzZeSgpJg/33nuQaLYCYhgxDTeLxU=",
+  "Hash": "bLnaxHJIYxS7Qd0Kt9oLYsxPUV7BKoyQW+Ls55TLAg0=",
   "Source": "GestionsInformesSSOAPI",
   "BasePath": "_content/GestionsInformesSSOAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "GestionsInformesSSOAPI\\wwwroot",
+      "Source": "GestionsInformesSSOAPI",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\Agua_53",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/Agua_53#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hb3jtwzyyg",
+      "Integrity": "c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Agua_53"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\Piel_53",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/Piel_53#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjxh8xbpf1",
+      "Integrity": "G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Piel_53"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\Rectal_53",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/Rectal_53#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qn8vk8yutk",
+      "Integrity": "am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Rectal_53"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Images/Agua_53",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\Agua_53",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 21:30:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Agua_53.hb3jtwzyyg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\Agua_53",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 21:30:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hb3jtwzyyg"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Agua_53"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Piel_53",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\Piel_53",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 21:30:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Piel_53.vjxh8xbpf1",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\Piel_53",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 21:30:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjxh8xbpf1"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Piel_53"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Rectal_53",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\Rectal_53",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 21:30:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Rectal_53.qn8vk8yutk",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\Rectal_53",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 21:30:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qn8vk8yutk"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Rectal_53"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY="
+        }
+      ]
+    }
+  ]
 }

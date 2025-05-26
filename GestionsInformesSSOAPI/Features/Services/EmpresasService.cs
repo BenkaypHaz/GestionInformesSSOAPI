@@ -18,11 +18,11 @@ namespace GestionsInformesSSOAPI.Features.Services
             try
             {
                 var empresas = await _repository.GetAllEmpresasAsync();
-                return ApiResponse.Ok("Empresas retrieved successfully.", empresas);
+                return ApiResponse.Ok("Listado de empresas generado correctamente.", empresas);
             }
             catch (Exception ex)
             {
-                return ApiResponse.BadRequest($"An error occurred: {ex.Message}");
+                return ApiResponse.BadRequest($"Ocurrio un error: {ex.Message}");
             }
         }
 

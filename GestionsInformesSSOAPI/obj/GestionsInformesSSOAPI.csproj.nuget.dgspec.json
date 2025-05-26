@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\informatica3\\source\\repos\\GestionsInformesSSOAPI\\GestionsInformesSSOAPI\\GestionsInformesSSOAPI.csproj": {}
+    "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\GestionsInformesSSOAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\informatica3\\source\\repos\\GestionsInformesSSOAPI\\GestionsInformesSSOAPI\\GestionsInformesSSOAPI.csproj": {
+    "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\GestionsInformesSSOAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\informatica3\\source\\repos\\GestionsInformesSSOAPI\\GestionsInformesSSOAPI\\GestionsInformesSSOAPI.csproj",
+        "projectUniqueName": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\GestionsInformesSSOAPI.csproj",
         "projectName": "GestionsInformesSSOAPI",
-        "projectPath": "C:\\Users\\informatica3\\source\\repos\\GestionsInformesSSOAPI\\GestionsInformesSSOAPI\\GestionsInformesSSOAPI.csproj",
+        "projectPath": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\GestionsInformesSSOAPI.csproj",
         "packagesPath": "C:\\Users\\informatica3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\informatica3\\source\\repos\\GestionsInformesSSOAPI\\GestionsInformesSSOAPI\\obj\\",
+        "outputPath": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\informatica3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -41,7 +52,7 @@
           "dependencies": {
             "EPPlus": {
               "target": "Package",
-              "version": "[7.5.1, )"
+              "version": "[7.5.3, )"
             },
             "ExcelDataReader": {
               "target": "Package",
@@ -53,11 +64,11 @@
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[5.2.2, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[9.0.1, )"
             },
             "Microsoft.ReportingServices.ReportViewerControl.WebForms": {
               "target": "Package",
@@ -69,7 +80,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.9.0, )"
+              "version": "[7.2.0, )"
             }
           },
           "imports": [
@@ -91,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
