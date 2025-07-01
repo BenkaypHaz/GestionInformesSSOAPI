@@ -1,4 +1,6 @@
 ﻿
+using GestionsInformesSSOAPI.Infraestructure.Entities;
+
 public class InformeRequest
 {
     public int IdEmpresa { get; set; }
@@ -11,8 +13,8 @@ public class InformeRequest
     public int idRopaUtilizada { get; set; }
 
     public List<EquipoUtilizadoRequest> EquiposUtilizados { get; set; }
-    public List<DiaEvaluacionRequest> DiasEvaluacion { get; set; } 
-
+    public List<DiaEvaluacionRequest> DiasEvaluacion { get; set; }
+    public List<TitulosGraficos> TitulosGraficos { get; set; }
 }
 
 public class EquipoUtilizadoRequest
@@ -28,3 +30,5 @@ public class DiaEvaluacionRequest
     public string TemperaturaMaxima { get; set; }
     public string TemperaturaMinima { get; set; }
 }
+
+

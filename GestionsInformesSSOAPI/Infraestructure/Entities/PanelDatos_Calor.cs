@@ -32,5 +32,11 @@ namespace GestionsInformesSSOAPI.Infraestructure.Entities
         public int Id_informe { get; set; }
         [Column("id_area")]
         public int id_area { get; set; }
+        [Column("GenerarGraficoCampana")]
+        public bool GenerarGraficoCampana { get; set; } // Nuevo campo
+        public decimal PMV { get; set; } // Nuevo campo
+        public decimal PPD { get; set; } // Nuevo campo
+
+
     }
 }

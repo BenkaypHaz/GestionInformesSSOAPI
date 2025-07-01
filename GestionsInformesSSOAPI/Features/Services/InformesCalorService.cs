@@ -47,6 +47,17 @@ public class InformesCalorService
                 TemperaturaMinima = Convert.ToDecimal(dia.TemperaturaMinima)
             }).ToList();
             await _repository.GuardarClimaAsync(tablasClima);
+            if (request.TitulosGraficos != null && request.TitulosGraficos.Any())
+            {
+                var titulos = request.TitulosGraficos.Select(t => new TitulosGraficos
+                {
+                    IdInforme = informeId,
+                    Titulo = t.Titulo,
+                    tipo_grafico = t.tipo_grafico
+                }).ToList();
+
+                await _repository.GuardarTitulosAsync(titulos);
+            }
 
             // Retornar respuesta con el ID del informe creado
             return ApiResponse.Ok($"Informe creado correctamente. ID: {informeId}", informeId);
@@ -56,7 +67,6 @@ public class InformesCalorService
             return ApiResponse.BadRequest($"Error al crear el informe: {ex.Message}");
         }
     }
-
 
     public async Task<ApiResponse> Prueba(IFormFile file,String xd)
     {

@@ -29,5 +29,10 @@ public class InformesCalorRepository
         await _context.SaveChangesAsync();
     }
 
+    public async Task GuardarTitulosAsync(List<TitulosGraficos> titulos)
+    {
+        _context.TitulosGraficos.AddRange(titulos);
+        await _context.SaveChangesAsync();
+    }
 
 }

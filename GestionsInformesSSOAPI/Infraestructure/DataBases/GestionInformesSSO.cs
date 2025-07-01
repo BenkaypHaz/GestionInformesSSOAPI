@@ -1,4 +1,6 @@
-﻿using GestionsInformesSSOAPI.Infraestructure.Entities;
+﻿using GestionsInformesSSOAPI.Features.Repository;
+using GestionsInformesSSOAPI.Infraestructure.Entities;
+using GestionsInformesSSOAPI.Infraestructure.Modelos;
 using Microsoft.EntityFrameworkCore;
 
 namespace GestionsInformesSSOAPI.Infraestructure.DataBases
@@ -9,6 +11,18 @@ namespace GestionsInformesSSOAPI.Infraestructure.DataBases
        : base(options)
         {
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<VistaCondicionesPorArea>(entity =>
+            {
+                entity.HasNoKey();
+                entity.ToView("VistaCondicionesPorArea"); 
+            });
+        }
+
 
         public DbSet<Usuarios> Usuarios { get; set; }
         public DbSet<Roles> Roles { get; set; }
@@ -23,6 +37,10 @@ namespace GestionsInformesSSOAPI.Infraestructure.DataBases
         public DbSet<EquipoUtilizadoInforme> EquipoUtilizadoInforme { get; set; }
         public DbSet<RopaUtilizada> RopaUtilizada { get; set; }
         public DbSet<TasaMetabolica> TasaMetabolica { get; set; }
+        public DbSet<TitulosGraficos> TitulosGraficos { get; set; }
+        public DbSet<ValoresProyectados_Calor> ValoresProyectados_Calor { get; set; }
+        public DbSet<VistaCondicionesPorArea> VistaCondicionesPorArea { get; set; }
+
 
     }
 }

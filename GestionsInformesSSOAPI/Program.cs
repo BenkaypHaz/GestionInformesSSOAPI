@@ -33,6 +33,7 @@ builder.Services.AddScoped<InformesCalorRepository>();
 builder.Services.AddScoped<RopaUtilizadaRepository>();
 builder.Services.AddScoped<TasaMetabolicaRepository>();
 builder.Services.AddScoped<ImagenesRepository>();
+builder.Services.AddScoped<ValoresProyectadosRepository>();
 
 builder.Services.AddScoped<ITrabajadorRepository, TrabajadorRepository>(); 
 builder.Services.AddScoped<ICalculoEstrésTérmicoService, CalculoEstrésTérmicoService>();
@@ -46,6 +47,7 @@ builder.Services.AddScoped<ReportService>();
 builder.Services.AddScoped<RopaUtilizadaService>();
 builder.Services.AddScoped<TasaMetabolicaService>();
 builder.Services.AddScoped<ImagenesService>();
+builder.Services.AddScoped<ValoresProyectadosService>();
 
 
 var app = builder.Build();

@@ -20,7 +20,6 @@ namespace GestionsInformesSSOAPI.Features.Controllers
         {
             try
             {
-                informeId = 26;
                 var parameters = new ReportParameter[]
                 {       
                 new ReportParameter("idInfo", informeId.ToString()),

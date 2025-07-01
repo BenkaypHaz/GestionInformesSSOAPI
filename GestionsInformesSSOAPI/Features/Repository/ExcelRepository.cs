@@ -77,14 +77,36 @@ public class ExcelRepository
     {
         try
         {
+            // --- Panel de Datos ---
             if (datosProcesados.ContainsKey("Panel de datos de resumen"))
             {
+                var informe = _dbContext.InformesCalor.FirstOrDefault(i => i.IdInfo == informeId);
+                decimal tasa = informe?.Tasa_Estimada ?? 0;
+                decimal umbralWBGT = 0;
+
+                // Validar tasa y asignar el umbral de WBGT
+                if (tasa >= 45 && tasa <= 100)
+                    umbralWBGT = 28.5m;
+                else if (tasa >= 140 && tasa <= 230)
+                    umbralWBGT = 25.5m;
+                else if (tasa == 290)
+                    umbralWBGT = 24.5m;
+
+
                 var filas = datosProcesados["Panel de datos de resumen"];
                 var panelDatos = new List<PanelDatos_Calor>();
                 PanelDatos_Calor cuadroActual = null;
+                int panelAreaId = 0;
 
                 foreach (var fila in filas)
                 {
+                    bool filaVacia = fila.Values.All(v => string.IsNullOrWhiteSpace(v?.ToString()));
+                    if (filaVacia)
+                    {
+                        panelAreaId++;
+                        continue;
+                    }
+
                     if (!fila.ContainsKey("Descripción") || !fila.ContainsKey("Valor"))
                         continue;
 
@@ -95,11 +117,20 @@ public class ExcelRepository
                     {
                         if (cuadroActual != null)
                         {
-                            cuadroActual.Id_informe = informeId; // Asociar el registro al informe
+                            cuadroActual.Id_informe = informeId;
+                            cuadroActual.id_area = panelAreaId;
                             panelDatos.Add(cuadroActual);
                         }
 
-                        cuadroActual = new PanelDatos_Calor { WBGT = valor, Id_informe = informeId };
+                        cuadroActual = new PanelDatos_Calor
+                        {
+                            WBGT = valor,
+                            Id_informe = informeId,
+                            id_area = panelAreaId
+                        };
+
+                        cuadroActual.GenerarGraficoCampana = valor > umbralWBGT;
+
                     }
                     else if (cuadroActual != null)
                     {
@@ -126,96 +157,192 @@ public class ExcelRepository
 
                 if (cuadroActual != null)
                 {
-                    cuadroActual.Id_informe = informeId; // Asociar el último cuadro al informe
+                    panelAreaId++;
+                    cuadroActual.Id_informe = informeId;
+                    cuadroActual.id_area = panelAreaId;
                     panelDatos.Add(cuadroActual);
                 }
 
                 if (panelDatos.Any())
-                {
                     _dbContext.Set<PanelDatos_Calor>().AddRange(panelDatos);
-                }
             }
 
 
+
+            // --- Gráfica de Datos ---
             if (datosProcesados.ContainsKey("Gráfica de datos de registro"))
             {
-                var graficoDatos = datosProcesados["Gráfica de datos de registro"]
-                    .Where(fila => DateTime.TryParse(fila["Timestamp"]?.ToString(), out _))
-                    .Select(fila => new GraficoDatos_Calor
+                var filas = datosProcesados["Gráfica de datos de registro"];
+                var graficoDatos = new List<GraficoDatos_Calor>();
+                int graficoAreaId = 1;
+
+                foreach (var fila in filas)
+                {
+                    bool filaVacia = fila.Values.All(v => string.IsNullOrWhiteSpace(v?.ToString()));
+                    if (filaVacia)
                     {
-                        Fecha = DateTime.Parse(fila["Timestamp"].ToString()),
+                        graficoAreaId++;
+                        continue;
+                    }
+
+                    if (!DateTime.TryParse(fila["Timestamp"]?.ToString(), out DateTime fecha))
+                        continue;
+
+                    graficoDatos.Add(new GraficoDatos_Calor
+                    {
+                        Fecha = fecha,
                         DryBulb = ParseDecimal(fila, "DryBulb"),
                         Humidity = ParseDecimal(fila, "Humidity"),
-                        Id_informe = informeId // Asociar el registro al informe
-                    })
-                    .ToList();
+                        Id_informe = informeId,
+                        id_area = graficoAreaId
+                    });
+                }
 
                 if (graficoDatos.Any())
-                {
                     _dbContext.Set<GraficoDatos_Calor>().AddRange(graficoDatos);
-                }
             }
 
-
+            // --- MS (DatosTiempo_Calor) ---
             if (datosProcesados.ContainsKey("MS"))
             {
                 var filas = datosProcesados["MS"];
                 var datosTiempo = new List<DatosTiempo_Calor>();
-                int currentAreaId = 1; // Comienza con el área 1
+                int msAreaId = 1;
 
                 foreach (var fila in filas)
                 {
-                    try
+                    bool filaVacia = fila.Values.All(v => string.IsNullOrWhiteSpace(v?.ToString()));
+                    if (filaVacia)
                     {
-                        // Verifica si todos los campos relevantes están vacíos
-                        bool filaVacia = fila.Values.All(value => string.IsNullOrWhiteSpace(value?.ToString()));
-
-                        if (filaVacia)
-                        {
-                            currentAreaId++; // Incrementa el área al encontrar una fila vacía
-                            continue; // Salta esta fila
-                        }
-
-                        if (!DateTime.TryParse(fila["Tiempo"]?.ToString(), CultureInfo.CurrentCulture, DateTimeStyles.None, out DateTime fechaHora))
-                        {
-                            Console.WriteLine($"No se pudo parsear el tiempo: {fila["Tiempo"]}");
-                            continue;
-                        }
-
-                        TimeSpan tiempo = fechaHora.TimeOfDay;
-                        decimal velocidad = ParseDecimal(fila, "m/s");
-
-                        datosTiempo.Add(new DatosTiempo_Calor
-                        {
-                            Tiempo = tiempo,
-                            MS = velocidad,
-                            Id_informe = informeId, // Asociar el registro al informe
-                            id_area = currentAreaId // Asigna el área actual
-                        });
+                        msAreaId++;
+                        continue;
                     }
-                    catch (Exception ex)
+
+                    if (!DateTime.TryParse(fila["Tiempo"]?.ToString(), CultureInfo.CurrentCulture, DateTimeStyles.None, out DateTime fechaHora))
                     {
-                        Console.WriteLine($"Error procesando fila: {ex.Message}");
+                        Console.WriteLine($"No se pudo parsear el tiempo: {fila["Tiempo"]}");
+                        continue;
                     }
+
+                    TimeSpan tiempo = fechaHora.TimeOfDay;
+                    decimal velocidad = ParseDecimal(fila, "m/s");
+
+                    datosTiempo.Add(new DatosTiempo_Calor
+                    {
+                        Tiempo = tiempo,
+                        MS = velocidad,
+                        Id_informe = informeId,
+                        id_area = msAreaId
+                    });
                 }
 
                 if (datosTiempo.Any())
-                {
                     _dbContext.Set<DatosTiempo_Calor>().AddRange(datosTiempo);
-                }
             }
 
-
-
-            // Guardar cambios en la base de datos
             _dbContext.SaveChanges();
+            CalcularYGuardarPMVPorArea(informeId);
+
         }
         catch (Exception ex)
         {
-            // Manejo de excepciones: registrar errores o re-lanzar
             throw new Exception("Error al guardar los datos desde el archivo Excel.", ex);
         }
     }
+
+    // GestionsInformesSSOAPI/Infraestructure/Repositories/ExcelRepository.cs
+
+    // ... (dentro de la clase ExcelRepository)
+
+    // El código que me pasaste termina aquí
+    // ...
+    // private decimal ParseDecimal(...) { ... }
+
+    // --- ¡AQUÍ EMPIEZA LA NUEVA IMPLEMENTACIÓN! ---
+    // GestionsInformesSSOAPI/Infraestructure/Repositories/ExcelRepository.cs
+
+    public void CalcularYGuardarPMVPorArea(int informeId)
+    {
+        try
+        {
+            var condicionesPorArea = _dbContext.VistaCondicionesPorArea
+                                               .Where(v => v.id_informe == informeId)
+                                               .ToList();
+
+            if (!condicionesPorArea.Any())
+            {
+                Console.WriteLine($"[DEBUG] Advertencia: No se encontraron datos en VistaCondicionesPorArea para el informeId: {informeId}");
+                return;
+            }
+
+            // Bucle a través de cada área para calcular y actualizar el PMV
+            foreach (var condicion in condicionesPorArea)
+            {
+                // --- INICIO DE DEPURACIÓN PARA UN ÁREA ---
+                Console.WriteLine($"\n--- Depurando Área ID: {condicion.id_area} para Informe ID: {informeId} ---");
+
+                // <-- DEBUG 1: Muestra los datos tal como vienen de la base de datos (en formato decimal)
+                Console.WriteLine($"[DEBUG 1] Valores CRUDOS leídos de la DB:");
+                Console.WriteLine($"  -> TempAire: {condicion.Temp_aire}");
+                Console.WriteLine($"  -> VelocidadAire: {condicion.Velocidad_Aire}");
+                Console.WriteLine($"  -> HumedadRelativa: {condicion.HumedadRelativa}"); // Sospechoso #1
+                Console.WriteLine($"  -> TasaEstimada: {condicion.Tasa_Estimada}");
+                Console.WriteLine($"  -> Ropa: {condicion.Ropa}");
+
+                // --- Preparación de parámetros ---
+                double ta = (double)condicion.Temp_aire;
+                double tr = ta; // Asunción: Temperatura Radiante = Temperatura del Aire
+                double vel = (double)condicion.Velocidad_Aire;
+                double rh = (double)condicion.HumedadRelativa * 100; // Sospechoso #2: ¿Se está haciendo esta multiplicación?
+                double met = (double)condicion.Tasa_Estimada;
+                double clo = (double)condicion.Ropa;
+
+                // <-- DEBUG 2: Muestra los valores JUSTO ANTES de enviarlos a la función de cálculo
+                Console.WriteLine($"[DEBUG 2] Parámetros FINALES enviados a PmvCalculator.CalculatePmv:");
+                Console.WriteLine($"  -> ta (Temp. Aire °C): {ta}");
+                Console.WriteLine($"  -> tr (Temp. Radiante °C): {tr}");
+                Console.WriteLine($"  -> vel (Velocidad Aire m/s): {vel}");
+                Console.WriteLine($"  -> rh (Humedad Relativa %): {rh}"); // ¡Este es el valor más importante a revisar!
+                Console.WriteLine($"  -> met (Tasa Metabólica W/m²): {met}");
+                Console.WriteLine($"  -> clo (Aislamiento Ropa clo): {clo}");
+
+                // --- Cálculo ---
+                double pmvCalculado = PmvCalculator.CalculatePmv(ta, tr, vel, rh, met, clo);
+
+                double ppdCalculado = PmvCalculator.CalculatePpd(pmvCalculado);
+
+
+                // <-- DEBUG 3: Muestra el resultado del cálculo
+                Console.WriteLine($"[DEBUG 3] Resultado del PMV calculado: {pmvCalculado}");
+
+                // --- Actualización de la DB ---
+                var panelDato = _dbContext.Set<PanelDatos_Calor>()
+                                          .FirstOrDefault(p => p.Id_informe == informeId && p.id_area == condicion.id_area);
+
+                if (panelDato != null)
+                {
+                    panelDato.PMV = (decimal)pmvCalculado;
+                    panelDato.PPD = (decimal)ppdCalculado; // Asumiendo que la columna existe
+
+                    Console.WriteLine($"[DEBUG 4] Actualizando PMV en PanelDatos_Calor para Area ID: {condicion.id_area}");
+                }
+                else
+                {
+                    Console.WriteLine($"[DEBUG 4] ERROR: No se encontró PanelDatos_Calor para Area ID: {condicion.id_area}");
+                }
+                Console.WriteLine("--- Fin Depuración Área ---");
+            }
+
+            _dbContext.SaveChanges();
+            Console.WriteLine("\nCambios guardados en la base de datos.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error catastrófico en CalcularYGuardarPMVPorArea: {ex.ToString()}");
+            throw new Exception($"Error al calcular y guardar el PMV para el informeId {informeId}.", ex);
+        }
+    }
+
 
     private decimal ObtenerValorDeFila(Dictionary<string, object> fila)
     {
@@ -230,21 +357,6 @@ public class ExcelRepository
             return valor;
         }
         return 0;
-    }
-
-    private bool EsFilaValida(Dictionary<string, object> fila)
-    {
-        // Validar que la fila contenga datos relevantes (no vacíos o nulos)
-        return fila.ContainsKey("Descripción") && fila.ContainsKey("Valor") &&
-               !string.IsNullOrWhiteSpace(fila["Descripción"]?.ToString()) &&
-               !string.IsNullOrWhiteSpace(fila["Valor"]?.ToString());
-    }
-
-    private bool EsPanelValido(PanelDatos_Calor panel)
-    {
-        // Validar que al menos uno de los campos tenga datos significativos
-        return panel.WBGT > 0 || panel.BulboSeco > 0 || panel.BulboHumedo > 0 ||
-               panel.CuerpoNegro > 0 || panel.IndiceTermico > 0 || panel.HumedadPromedio > 0;
     }
 
     private decimal ParseDecimal(Dictionary<string, object> fila, string clave, bool isPercentage = false)
@@ -263,5 +375,8 @@ public class ExcelRepository
         }
         return 0;
     }
+
+
+
 
 }

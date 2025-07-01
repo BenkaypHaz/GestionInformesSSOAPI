@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using GestionsInformesSSOAPI.Features.Services;
 using GestionsInformesSSOAPI.Infraestructure.Modelos;
+using static GestionsInformesSSOAPI.Features.Services.ImagenesService;
 
 namespace GestionsInformesSSOAPI.Features.Controllers
 {
@@ -14,44 +15,56 @@ namespace GestionsInformesSSOAPI.Features.Controllers
         public ImagenesController(ImagenesService imagenesService, ILogger<ImagenesController> logger)
         {
             _imagenesService = imagenesService;
-            _logger = logger;
+            _logger = logger; 
         }
 
         [HttpPost("Upload")]
         public async Task<IActionResult> SubirImagen([FromForm] ImagenUploadModel model)
         {
-            var resultado = await _imagenesService.GuardarImagen(model);
+            var resultado = await _imagenesService.GuardarImagen(model);  
             return Ok(resultado);
         }
 
-        // Obtener imagen por nombre - Modificado para mostrar en navegador
         [HttpGet("GetByName/{nombreImagen}")]
         public async Task<IActionResult> ObtenerImagenPorNombre(string nombreImagen)
         {
             try
             {
                 _logger.LogInformation("Solicitando imagen: {NombreImagen}", nombreImagen);
-                var resultado = await _imagenesService.ObtenerImagenPorNombre(nombreImagen);
 
-                if (!resultado.Success)
+                // Definir las extensiones posibles
+                string[] extensiones = { ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp", ".svg" };
+
+                // Intentar buscar la imagen con cada una de las extensiones posibles
+                foreach (var ext in extensiones)
                 {
-                    _logger.LogWarning("Imagen no encontrada: {NombreImagen}", nombreImagen);
-                    return NotFound(new { success = false, message = resultado.Message });
+                    string nombreConExtension = nombreImagen + ext;
+                    var resultado = await _imagenesService.ObtenerImagenPorNombre(nombreConExtension);
+
+                    if (resultado.Success)
+                    {
+                        var imagenInfo = resultado.Data as ImagenData;
+
+                        if (imagenInfo != null)
+                        {
+                            // Leer el archivo como bytes
+                            var imageBytes = await System.IO.File.ReadAllBytesAsync(imagenInfo.RutaCompleta);
+
+                            // Determinar el Content-Type correcto basado en la extensión
+                            var contentType = imagenInfo.ContentType;
+
+                            // Establecer headers para mostrar inline (no descargar)
+                            Response.Headers.Add("Content-Disposition", "inline");
+
+                            // Devolver el archivo como stream para mostrar en navegador
+                            return File(imageBytes, contentType);
+                        }
+                    }
                 }
 
-                var imagenInfo = resultado.Data as dynamic;
-
-                // Leer el archivo como bytes
-                var imageBytes = await System.IO.File.ReadAllBytesAsync(imagenInfo.RutaCompleta);
-
-                // Determinar el Content-Type correcto basado en la extensión
-                var contentType = DeterminarContentType(nombreImagen);
-
-                // Establecer headers para mostrar inline (no descargar)
-                Response.Headers.Add("Content-Disposition", "inline");
-
-                // Devolver el archivo como stream para mostrar en navegador
-                return File(imageBytes, contentType);
+                // Si no se encuentra la imagen con ninguna extensión
+                _logger.LogWarning("Imagen no encontrada: {NombreImagen}", nombreImagen);
+                return NotFound(new { success = false, message = "Imagen no encontrada" });
             }
             catch (Exception ex)
             {
@@ -59,6 +72,8 @@ namespace GestionsInformesSSOAPI.Features.Controllers
                 return StatusCode(500, new { success = false, message = "Error interno del servidor" });
             }
         }
+       
+
 
         private string DeterminarContentType(string nombreArchivo)
         {

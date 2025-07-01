@@ -21,71 +21,117 @@ namespace GestionsInformesSSOAPI.Features.Services
 
         public async Task<ApiResponse> GuardarImagen(ImagenUploadModel model)
         {
-            if (model.File == null || model.File.Length == 0)
-                return new ApiResponse(false, "Archivo no válido");
-
-            var folder = Path.Combine(_env.WebRootPath ?? "wwwroot", "Images");
-            if (!Directory.Exists(folder))
-                Directory.CreateDirectory(folder);
-
-            var fileName = $"{model.InformeId}_{model.Tipo}{Path.GetExtension(model.File.FileName)}";
-            var path = Path.Combine(folder, fileName);
-
-            using (var stream = new FileStream(path, FileMode.Create))
-            {
-                await model.File.CopyToAsync(stream);
-            }
-
-            // Guardar metadata en BD si aplica
-            await _repo.RegistrarRuta(model.InformeId, model.Tipo, $"/Images/{fileName}");
-
-            return new ApiResponse(true, "Imagen guardada correctamente");
-        }
-
-        public async Task<ApiResponse> ObtenerImagenPorNombre(string nombreImagen)
-        {
             try
             {
-                if (string.IsNullOrEmpty(nombreImagen))
-                    return new ApiResponse(false, "Nombre de imagen requerido");
+                if (model.Files == null || model.Files.Length == 0)
+                    return new ApiResponse(false, "No se seleccionaron archivos válidos.");
 
-                var webRootPath = _env.WebRootPath ?? Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
-                var imagesFolder = Path.Combine(webRootPath, "Images");
-                var rutaCompleta = Path.Combine(imagesFolder, nombreImagen);
+                var folder = Path.Combine(_env.WebRootPath ?? "wwwroot", "Images");
 
-                _logger.LogInformation("Buscando imagen en: {Ruta}", rutaCompleta);
+                if (!Directory.Exists(folder))
+                    Directory.CreateDirectory(folder);
 
-                if (!File.Exists(rutaCompleta))
+                // Iniciar contador en función de cuántas imágenes ya existen
+                int contadorFotosArea = 1;
+                if (model.Tipo == "FotosAreas")
                 {
-                    _logger.LogWarning("Archivo no encontrado: {Ruta}", rutaCompleta);
-                    return new ApiResponse(false, "Imagen no encontrada");
+                    var archivosExistentes = Directory.GetFiles(folder, $"{model.InformeId}_*")
+                                                      .Where(f => int.TryParse(Path.GetFileNameWithoutExtension(f).Split('_').Last(), out _))
+                                                      .ToList();
+
+                    contadorFotosArea = archivosExistentes.Count + 1;
+                    _logger.LogInformation($"[📷 FotosAreas] Imágenes existentes detectadas: {archivosExistentes.Count}. Iniciando desde: {contadorFotosArea}");
                 }
 
-                var contentType = ObtenerContentType(nombreImagen);
-                var fileInfo = new FileInfo(rutaCompleta);
-
-                var resultado = new
+                foreach (var file in model.Files)
                 {
-                    NombreArchivo = nombreImagen,
-                    RutaCompleta = rutaCompleta,
-                    ContentType = contentType,
-                    Tamaño = fileInfo.Length,
-                    FechaModificacion = fileInfo.LastWriteTime
-                };
+                    string fileName;
 
-                return new ApiResponse(true, "Imagen encontrada", resultado);
+                    if (model.Tipo == "FotosAreas")
+                    {
+                        fileName = $"{model.InformeId}_{contadorFotosArea}{Path.GetExtension(file.FileName)}";
+                        contadorFotosArea++;
+                    }
+                    else
+                    {
+                        fileName = $"{model.InformeId}_{model.Tipo}{Path.GetExtension(file.FileName)}";
+                    }
+
+                    var path = Path.Combine(folder, fileName);
+
+                    // Log de depuración
+                    _logger.LogInformation($"[💾 Guardando] Tipo: {model.Tipo}, Archivo: {fileName}");
+
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        await file.CopyToAsync(stream);
+                    }
+
+                    await _repo.RegistrarRuta(model.InformeId, model.Tipo, $"/Images/{fileName}");
+                }
+
+                return new ApiResponse(true, "Imágenes guardadas correctamente.");
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error al obtener imagen por nombre: {NombreImagen}", nombreImagen);
-                return new ApiResponse(false, $"Error interno: {ex.Message}");
+                _logger.LogError(ex, "Error al guardar las imágenes");
+                return new ApiResponse(false, "Hubo un error al guardar las imágenes. Intente nuevamente.");
             }
         }
 
-       
-       
+        public class ImagenData
+        {
+            public string RutaCompleta { get; set; }
+            public string ContentType { get; set; }
+        }
 
-       
+
+
+
+       public async Task<ApiResponse> ObtenerImagenPorNombre(string nombreImagen)
+{
+    try
+    {
+        if (string.IsNullOrEmpty(nombreImagen))
+            return new ApiResponse(false, "Nombre de imagen requerido");
+
+        var webRootPath = _env.WebRootPath ?? Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+        var imagesFolder = Path.Combine(webRootPath, "Images");
+        var rutaCompleta = Path.Combine(imagesFolder, nombreImagen);
+
+        _logger.LogInformation("Buscando imagen en: {Ruta}", rutaCompleta);
+
+        if (!File.Exists(rutaCompleta))
+        {
+            _logger.LogWarning("Archivo no encontrado: {Ruta}", rutaCompleta);
+            return new ApiResponse(false, "Imagen no encontrada");
+        }
+
+        var contentType = ObtenerContentType(nombreImagen);
+        var fileInfo = new FileInfo(rutaCompleta);
+
+        // Devuelve un objeto con las propiedades definidas
+        var resultado = new ApiResponse(true, "Imagen encontrada", new ImagenData
+        {
+            RutaCompleta = rutaCompleta,
+            ContentType = contentType
+        });
+
+        return resultado;
+    }
+    catch (Exception ex)
+    {
+        _logger.LogError(ex, "Error al obtener imagen por nombre: {NombreImagen}", nombreImagen);
+        return new ApiResponse(false, $"Error interno: {ex.Message}");
+    }
+}
+
+
+
+
+
+
+
 
         // Método helper para obtener Content-Type
         private string ObtenerContentType(string fileName)
