@@ -27,30 +27,45 @@ namespace GestionsInformesSSOAPI.Features.Services
                     return new ApiResponse(false, "No se seleccionaron archivos válidos.");
 
                 var folder = Path.Combine(_env.WebRootPath ?? "wwwroot", "Images");
-
                 if (!Directory.Exists(folder))
                     Directory.CreateDirectory(folder);
 
                 // Iniciar contador en función de cuántas imágenes ya existen
                 int contadorFotosArea = 1;
+                int contadorGraficosHumedad = 1;
+
                 if (model.Tipo == "FotosAreas")
                 {
                     var archivosExistentes = Directory.GetFiles(folder, $"{model.InformeId}_*")
                                                       .Where(f => int.TryParse(Path.GetFileNameWithoutExtension(f).Split('_').Last(), out _))
                                                       .ToList();
-
                     contadorFotosArea = archivosExistentes.Count + 1;
                     _logger.LogInformation($"[📷 FotosAreas] Imágenes existentes detectadas: {archivosExistentes.Count}. Iniciando desde: {contadorFotosArea}");
+                }
+                else if (model.Tipo == "GraficosHumedad")
+                {
+                    var archivosExistentes = Directory.GetFiles(folder, $"GraficoHumedad_{model.InformeId}_*")
+                                                      .Where(f => {
+                                                          var parts = Path.GetFileNameWithoutExtension(f).Split('_');
+                                                          return parts.Length >= 3 && int.TryParse(parts.Last(), out _);
+                                                      })
+                                                      .ToList();
+                    contadorGraficosHumedad = archivosExistentes.Count + 1;
+                    _logger.LogInformation($"[📊 GraficosHumedad] Gráficos existentes detectados: {archivosExistentes.Count}. Iniciando desde: {contadorGraficosHumedad}");
                 }
 
                 foreach (var file in model.Files)
                 {
                     string fileName;
-
                     if (model.Tipo == "FotosAreas")
                     {
                         fileName = $"{model.InformeId}_{contadorFotosArea}{Path.GetExtension(file.FileName)}";
                         contadorFotosArea++;
+                    }
+                    else if (model.Tipo == "GraficosHumedad")
+                    {
+                        fileName = $"GraficoHumedad_{model.InformeId}_{contadorGraficosHumedad}{Path.GetExtension(file.FileName)}";
+                        contadorGraficosHumedad++;
                     }
                     else
                     {
