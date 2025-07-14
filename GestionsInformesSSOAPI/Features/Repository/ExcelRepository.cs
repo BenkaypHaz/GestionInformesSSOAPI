@@ -77,97 +77,8 @@ public class ExcelRepository
     {
         try
         {
-            // --- Panel de Datos ---
-            if (datosProcesados.ContainsKey("Panel de datos de resumen"))
-            {
-                var informe = _dbContext.InformesCalor.FirstOrDefault(i => i.IdInfo == informeId);
-                decimal tasa = informe?.Tasa_Estimada ?? 0;
-                decimal umbralWBGT = 0;
-
-                // Validar tasa y asignar el umbral de WBGT
-                if (tasa >= 45 && tasa <= 100)
-                    umbralWBGT = 28.5m;
-                else if (tasa >= 140 && tasa <= 230)
-                    umbralWBGT = 25.5m;
-                else if (tasa == 290)
-                    umbralWBGT = 24.5m;
-
-
-                var filas = datosProcesados["Panel de datos de resumen"];
-                var panelDatos = new List<PanelDatos_Calor>();
-                PanelDatos_Calor cuadroActual = null;
-                int panelAreaId = 0;
-
-                foreach (var fila in filas)
-                {
-                    bool filaVacia = fila.Values.All(v => string.IsNullOrWhiteSpace(v?.ToString()));
-                    if (filaVacia)
-                    {
-                        panelAreaId++;
-                        continue;
-                    }
-
-                    if (!fila.ContainsKey("Descripción") || !fila.ContainsKey("Valor"))
-                        continue;
-
-                    string descripcion = fila["Descripción"].ToString();
-                    decimal valor = ObtenerValorDeFila(fila);
-
-                    if (descripcion == "WBGT de entrada promedio ")
-                    {
-                        if (cuadroActual != null)
-                        {
-                            cuadroActual.Id_informe = informeId;
-                            cuadroActual.id_area = panelAreaId;
-                            panelDatos.Add(cuadroActual);
-                        }
-
-                        cuadroActual = new PanelDatos_Calor
-                        {
-                            WBGT = valor,
-                            Id_informe = informeId,
-                            id_area = panelAreaId
-                        };
-
-                        cuadroActual.GenerarGraficoCampana = valor > umbralWBGT;
-
-                    }
-                    else if (cuadroActual != null)
-                    {
-                        switch (descripcion)
-                        {
-                            case "Temperatura de bulbo seco promedio ":
-                                cuadroActual.BulboSeco = valor;
-                                break;
-                            case "Temperatura de bulbo húmedo promedio":
-                                cuadroActual.BulboHumedo = valor;
-                                break;
-                            case "Temperatura en cuerpo negro promedio ":
-                                cuadroActual.CuerpoNegro = valor;
-                                break;
-                            case "Índice térmico promedio":
-                                cuadroActual.IndiceTermico = valor;
-                                break;
-                            case "Humedad promedio":
-                                cuadroActual.HumedadPromedio = valor / 100;
-                                break;
-                        }
-                    }
-                }
-
-                if (cuadroActual != null)
-                {
-                    panelAreaId++;
-                    cuadroActual.Id_informe = informeId;
-                    cuadroActual.id_area = panelAreaId;
-                    panelDatos.Add(cuadroActual);
-                }
-
-                if (panelDatos.Any())
-                    _dbContext.Set<PanelDatos_Calor>().AddRange(panelDatos);
-            }
-
-
+            // --- REMOVIDO: Panel de Datos ---
+            // Ya no procesamos "Panel de datos de resumen" porque ahora se captura desde el frontend
 
             // --- Gráfica de Datos ---
             if (datosProcesados.ContainsKey("Gráfica de datos de registro"))
@@ -241,7 +152,8 @@ public class ExcelRepository
             }
 
             _dbContext.SaveChanges();
-            CalcularYGuardarPMVPorArea(informeId);
+
+            // NO llamamos a CalcularYGuardarPMVPorArea aquí porque ahora se hace desde el controller
 
         }
         catch (Exception ex)

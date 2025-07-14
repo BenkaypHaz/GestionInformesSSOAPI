@@ -1,0 +1,321 @@
+USE [GestionInformesSSO]
+GO
+/****** Object:  Table [dbo].[PanelDatos_Calor]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[PanelDatos_Calor](
+	[id_panel] [int] IDENTITY(1,1) NOT NULL,
+	[WBGT] [decimal](6, 2) NULL,
+	[Bulbo_Seco] [decimal](6, 2) NULL,
+	[Bulbo_humedo] [decimal](6, 2) NULL,
+	[Cuerpo_negro] [decimal](6, 2) NULL,
+	[Indice_termico] [decimal](6, 2) NULL,
+	[Humedad_promedio] [decimal](6, 2) NULL,
+	[id_informe] [int] NULL,
+	[id_area] [int] NULL,
+	[GenerarGraficoCampana] [bit] NULL,
+	[PMV] [decimal](18, 2) NULL,
+	[PPD] [decimal](18, 2) NULL,
+	[Tasa_Estimada] [decimal](6, 2) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id_panel] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DatosTiempo_Calor]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DatosTiempo_Calor](
+	[id_dato] [int] IDENTITY(1,1) NOT NULL,
+	[Tiempo] [time](0) NULL,
+	[MS] [decimal](6, 2) NULL,
+	[id_informe] [int] NULL,
+	[id_area] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id_dato] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[InformesCalor]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[InformesCalor](
+	[id_info] [int] IDENTITY(1,1) NOT NULL,
+	[id_empresa] [int] NULL,
+	[esAfiliada] [bit] NULL,
+	[fechaInicia] [datetime] NULL,
+	[fechaFinaliza] [datetime] NULL,
+	[id_tecnico] [int] NULL,
+	[Peso_Promedio] [decimal](10, 2) NOT NULL,
+	[idRopaUtilizada] [int] NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Ropa_Utilizada]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Ropa_Utilizada](
+	[id_ropa] [int] IDENTITY(1,1) NOT NULL,
+	[nombre] [nvarchar](255) NOT NULL,
+	[descripcion] [nvarchar](500) NOT NULL,
+	[cy_f] [decimal](5, 2) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id_ropa] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  View [dbo].[VistaCondicionesPorArea]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE VIEW [dbo].[VistaCondicionesPorArea] AS
+SELECT
+    IC.id_info AS id_informe,
+    DTC.id_area,
+    PDC.Tasa_Estimada,
+    PDC.Bulbo_Humedo,
+    PDC.Bulbo_Seco AS Temp_aire,
+    RU.cy_f AS Ropa,
+    AVG(DTC.MS) AS Velocidad_Aire,
+    PDC.Humedad_Promedio AS HumedadRelativa
+FROM InformesCalor IC
+JOIN PanelDatos_Calor PDC ON IC.id_info = PDC.id_informe
+JOIN DatosTiempo_Calor DTC ON IC.id_info = DTC.id_informe AND PDC.id_area = DTC.id_area
+JOIN Ropa_Utilizada RU ON IC.idRopaUtilizada = RU.id_ropa
+GROUP BY
+    IC.id_info,
+    DTC.id_area,
+    PDC.Tasa_Estimada,
+    PDC.Bulbo_Humedo,
+    PDC.Bulbo_Seco,
+    RU.cy_f,
+    PDC.Humedad_Promedio;
+GO
+/****** Object:  Table [dbo].[DatosWBGT]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DatosWBGT](
+	[RangoMetabolico] [int] NULL,
+	[WBGT_Aclimatado] [decimal](5, 2) NULL,
+	[WBGT_Obtenido] [decimal](5, 2) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Departamentos]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Departamentos](
+	[id_departamento] [int] IDENTITY(1,1) NOT NULL,
+	[nombre] [nvarchar](200) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id_departamento] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Empresas]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Empresas](
+	[id_emp] [int] IDENTITY(1,1) NOT NULL,
+	[nombre] [nvarchar](500) NULL,
+	[direccion] [nvarchar](1000) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id_emp] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Equipos]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Equipos](
+	[id_equipo] [int] IDENTITY(1,1) NOT NULL,
+	[nombre] [nvarchar](500) NULL,
+	[modelo] [nvarchar](500) NULL,
+	[marca] [nvarchar](500) NULL,
+	[serie] [nvarchar](500) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id_equipo] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[EquipoUtilizado_Informe]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[EquipoUtilizado_Informe](
+	[id_uti] [int] IDENTITY(1,1) NOT NULL,
+	[id_informe] [int] NULL,
+	[id_equipo] [int] NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[GraficoDatos_Calor]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[GraficoDatos_Calor](
+	[id_registro] [int] IDENTITY(1,1) NOT NULL,
+	[Fecha] [datetime] NULL,
+	[DryBulb] [decimal](6, 2) NULL,
+	[Humidity] [decimal](6, 2) NULL,
+	[id_informe] [int] NULL,
+	[id_area] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id_registro] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Roles]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Roles](
+	[id_rol] [int] IDENTITY(1,1) NOT NULL,
+	[nombre] [nvarchar](200) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id_rol] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[RolesUsuario]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[RolesUsuario](
+	[rolusu_Id] [int] IDENTITY(1,1) NOT NULL,
+	[usu_Id] [int] NULL,
+	[rol_Id] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[rolusu_Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[TablasClima_Informe]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[TablasClima_Informe](
+	[id_tabla] [int] IDENTITY(1,1) NOT NULL,
+	[id_informe] [int] NULL,
+	[humedad_Relativa] [decimal](6, 2) NULL,
+	[temperatura_Maxima] [decimal](6, 2) NULL,
+	[temperatura_Minima] [decimal](6, 2) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[TasaMetabolica]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[TasaMetabolica](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Actividad] [varchar](100) NULL,
+	[TasaMetabolicaMin] [int] NULL,
+	[TasaMetabolicaMax] [int] NULL,
+	[EficienciaMecanica] [float] NULL,
+	[EjemploActividad] [varchar](150) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[TestGraphData]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[TestGraphData](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[PMV] [float] NOT NULL,
+	[PPD] [float] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[TitulosGraficos]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[TitulosGraficos](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[IdInforme] [int] NOT NULL,
+	[Titulo] [nvarchar](255) NOT NULL,
+	[tipo_grafico] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Usuarios]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Usuarios](
+	[id_usuario] [int] IDENTITY(1,1) NOT NULL,
+	[usuario] [varchar](255) NOT NULL,
+	[nombre] [varchar](255) NOT NULL,
+	[clave_encriptada] [varchar](255) NOT NULL,
+	[correo] [varchar](255) NOT NULL,
+	[id_rol] [int] NULL,
+	[activo] [bit] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id_usuario] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[ValoresProyectados_Calor]    Script Date: 14/7/2025 11:27:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[ValoresProyectados_Calor](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[IdInforme] [int] NOT NULL,
+	[TemperaturaRectalFinal] [decimal](5, 2) NOT NULL,
+	[ExcesoTempCorporal38C] [bit] NOT NULL,
+	[ExcesoDeshidratacion2Porciento] [bit] NOT NULL,
+	[TasaMediaSudoracion] [decimal](5, 2) NOT NULL,
+	[PerdidaTotalAgua] [decimal](7, 2) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[InformesCalor] ADD  DEFAULT ((0.00)) FOR [Peso_Promedio]
+GO
