@@ -22,9 +22,9 @@ public class InformesCalorService
                 FechaInicia = request.FechaInicia,
                 FechaFinaliza = request.FechaFinaliza,
                 IdTecnico = request.IdTecnico,
-                Tasa_Estimada = request.Tasa_Estimada,
                 Peso_Promedio = request.Peso_Promedio,
-                idRopaUtilizada = request.idRopaUtilizada
+                Aclimatacion = request.Aclimatacion, // NUEVO
+                Hidratacion = request.Hidratacion // NUEVO
             };
 
             // Guardar informe y obtener su ID generado

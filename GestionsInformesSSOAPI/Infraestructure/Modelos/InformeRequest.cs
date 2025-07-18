@@ -10,8 +10,8 @@ public class InformeRequest
     public int IdTecnico { get; set; }
     public decimal Tasa_Estimada { get; set; }
     public decimal Peso_Promedio { get; set; }
-    public int idRopaUtilizada { get; set; }
-
+    public bool Aclimatacion { get; set; } // NUEVO
+    public bool Hidratacion { get; set; } // NUEVO
     public List<EquipoUtilizadoRequest> EquiposUtilizados { get; set; }
     public List<DiaEvaluacionRequest> DiasEvaluacion { get; set; }
     public List<TitulosGraficos> TitulosGraficos { get; set; }

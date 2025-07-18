@@ -3,10 +3,14 @@ using GestionsInformesSSOAPI.Features.Repository;
 using GestionsInformesSSOAPI.Features.Services;
 using GestionsInformesSSOAPI.Infraestructure.DataBases;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+});
 
 builder.Services.AddCors(options =>
 {      

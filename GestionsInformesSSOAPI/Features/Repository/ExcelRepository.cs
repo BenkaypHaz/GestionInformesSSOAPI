@@ -162,16 +162,6 @@ public class ExcelRepository
         }
     }
 
-    // GestionsInformesSSOAPI/Infraestructure/Repositories/ExcelRepository.cs
-
-    // ... (dentro de la clase ExcelRepository)
-
-    // El código que me pasaste termina aquí
-    // ...
-    // private decimal ParseDecimal(...) { ... }
-
-    // --- ¡AQUÍ EMPIEZA LA NUEVA IMPLEMENTACIÓN! ---
-    // GestionsInformesSSOAPI/Infraestructure/Repositories/ExcelRepository.cs
 
     public void CalcularYGuardarPMVPorArea(int informeId)
     {

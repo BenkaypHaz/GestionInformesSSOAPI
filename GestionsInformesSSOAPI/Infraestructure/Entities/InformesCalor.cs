@@ -26,11 +26,12 @@ namespace GestionsInformesSSOAPI.Infraestructure.Entities
 
         [Column("id_tecnico")]
         public int IdTecnico { get; set; }
-        [Column("Tasa_Estimada")]
-        public decimal Tasa_Estimada { get; set; }
         [Column("Peso_Promedio")]
         public decimal Peso_Promedio { get; set; }
-        [Column("idRopaUtilizada")]
-        public int idRopaUtilizada { get; set; }
+        [Column("Aclimatacion")]
+        public bool Aclimatacion { get; set; } // NUEVO CAMPO
+
+        [Column("Hidratacion")]
+        public bool Hidratacion { get; set; } // NUEVO 
     }
 }

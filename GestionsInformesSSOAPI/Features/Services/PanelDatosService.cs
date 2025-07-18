@@ -52,7 +52,11 @@ namespace GestionsInformesSSOAPI.Features.Services
                             HumedadPromedio = datosBase.HumedadPromedio,
                             GenerarGraficoCampana = datosBase.GenerarGraficoCampana,
                             PMV = 0, // Se calculará después si GenerarGraficoCampana = true
-                            PPD = 0  // Se calculará después si GenerarGraficoCampana = true
+                            PPD = 0,  // Se calculará después si GenerarGraficoCampana = true
+                            Tasa_Estimada = datosBase.TasaEstimada, // NUEVO CAMPO
+                            IdRopaUtilizada = datosBase.IdRopaUtilizada, // NUEVO
+                            Postura = datosBase.Postura, // NUEVO
+                            Ambiente = datosBase.Ambiente // NUEVO
                         });
                     }
                 }
@@ -76,7 +80,11 @@ namespace GestionsInformesSSOAPI.Features.Services
                             HumedadPromedio = datosArea.HumedadPromedio,
                             GenerarGraficoCampana = datosArea.GenerarGraficoCampana,
                             PMV = 0,
-                            PPD = 0
+                            PPD = 0,
+                            Tasa_Estimada = datosArea.TasaEstimada, // NUEVO CAMPO
+                            IdRopaUtilizada = datosArea.IdRopaUtilizada, // NUEVO
+                            Postura = datosArea.Postura, // NUEVO
+                            Ambiente = datosArea.Ambiente // NUEVO
                         });
                     }
                 }

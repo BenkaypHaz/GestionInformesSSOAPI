@@ -37,6 +37,15 @@ namespace GestionsInformesSSOAPI.Infraestructure.Entities
         public decimal PMV { get; set; } // Nuevo campo
         public decimal PPD { get; set; } // Nuevo campo
 
+        [Column("Tasa_Estimada")]
+        public decimal Tasa_Estimada { get; set; }
+        [Column("IdRopaUtilizada")]
+        public int? IdRopaUtilizada { get; set; }
 
+        [Column("Postura")]
+        public string Postura { get; set; } // NUEVO CAMPO
+
+        [Column("Ambiente")]
+        public string Ambiente { get; set; } // NUEVO CAMPO
     }
 }
