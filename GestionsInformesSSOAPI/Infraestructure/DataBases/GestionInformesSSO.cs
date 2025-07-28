@@ -40,7 +40,7 @@ namespace GestionsInformesSSOAPI.Infraestructure.DataBases
         public DbSet<TitulosGraficos> TitulosGraficos { get; set; }
         public DbSet<ValoresProyectados_Calor> ValoresProyectados_Calor { get; set; }
         public DbSet<VistaCondicionesPorArea> VistaCondicionesPorArea { get; set; }
-
+        public DbSet<CriteriosEvaluacion> CriteriosEvaluacion { get; set; }
 
     }
 }

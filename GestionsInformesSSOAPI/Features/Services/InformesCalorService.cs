@@ -1,5 +1,6 @@
 ﻿using GestionsInformesSSOAPI.Features.Utility;
 using GestionsInformesSSOAPI.Infraestructure.Entities;
+using GestionsInformesSSOAPI.Infraestructure.Modelos;
 using Microsoft.AspNetCore.Http.HttpResults;
 
 public class InformesCalorService
@@ -24,7 +25,8 @@ public class InformesCalorService
                 IdTecnico = request.IdTecnico,
                 Peso_Promedio = request.Peso_Promedio,
                 Aclimatacion = request.Aclimatacion, // NUEVO
-                Hidratacion = request.Hidratacion // NUEVO
+                Hidratacion = request.Hidratacion, // NUEVO
+                Conclusiones = request.Conclusiones // NUEVO
             };
 
             // Guardar informe y obtener su ID generado
@@ -44,7 +46,8 @@ public class InformesCalorService
                 IdInforme = informeId,
                 HumedadRelativa = Convert.ToDecimal(dia.HumedadRelativa),
                 TemperaturaMaxima = Convert.ToDecimal(dia.TemperaturaMaxima),
-                TemperaturaMinima = Convert.ToDecimal(dia.TemperaturaMinima)
+                TemperaturaMinima = Convert.ToDecimal(dia.TemperaturaMinima),
+                Nubosidad = dia.Nubosidad
             }).ToList();
             await _repository.GuardarClimaAsync(tablasClima);
             if (request.TitulosGraficos != null && request.TitulosGraficos.Any())
@@ -65,6 +68,23 @@ public class InformesCalorService
         catch (Exception ex)
         {
             return ApiResponse.BadRequest($"Error al crear el informe: {ex.Message}");
+        }
+    }
+
+    public async Task<ApiResponse> ActualizarConclusionesAsync(ActualizarConclusionesDTO dto)
+    {
+        try
+        {
+            var actualizado = await _repository.ActualizarConclusionesAsync(dto.IdInforme, dto.Conclusiones);
+
+            if (!actualizado)
+                return ApiResponse.BadRequest("Informe no encontrado");
+
+            return ApiResponse.Ok("Conclusiones actualizadas exitosamente");
+        }
+        catch (Exception ex)
+        {
+            return ApiResponse.BadRequest($"Error al actualizar conclusiones: {ex.Message}");
         }
     }
 

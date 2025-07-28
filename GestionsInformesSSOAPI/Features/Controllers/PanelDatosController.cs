@@ -37,5 +37,25 @@ namespace GestionsInformesSSOAPI.Features.Controllers
 
             return Ok(response);
         }
+
+        // GestionsInformesSSOAPI/Features/Controllers/PanelDatosController.cs
+        [HttpPost("{informeId}/calcular-pmv")]
+        public async Task<ActionResult<ApiResponse>> CalcularPMV(int informeId)
+        {
+            try
+            {
+
+                var response = await _service.Calcular_PMV(informeId);
+                if (!response.Success)
+                    return BadRequest(response);
+
+                return Ok(response);
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ApiResponse.BadRequest($"Error al calcular PMV: {ex.Message}"));
+            }
+        }
     }
 }

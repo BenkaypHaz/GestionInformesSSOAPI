@@ -114,5 +114,21 @@ namespace GestionsInformesSSOAPI.Features.Services
                 return ApiResponse.BadRequest($"Error al obtener datos: {ex.Message}");
             }
         }
+
+        public async Task<ApiResponse> Calcular_PMV(int informeId)
+        {
+            try
+            {
+                var datos = await _repository.CalcularPMV(informeId);
+                if (datos)
+                    return ApiResponse.Ok("Calculado el PMV");
+                else
+                    return ApiResponse.BadRequest("No calculado el pmv");
+            }
+            catch (Exception ex)
+            {
+                return ApiResponse.BadRequest($"Error al calcular PMV: {ex.Message}");
+            }
+        }
     }
 }

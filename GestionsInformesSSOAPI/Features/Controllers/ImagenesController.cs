@@ -72,8 +72,40 @@ namespace GestionsInformesSSOAPI.Features.Controllers
                 return StatusCode(500, new { success = false, message = "Error interno del servidor" });
             }
         }
-       
 
+        [HttpGet("CheckExists/{nombreImagen}")]
+        public async Task<IActionResult> CheckImageExists(string nombreImagen)
+        {
+            try
+            {
+                _logger.LogInformation("Verificando existencia de imagen: {NombreImagen}", nombreImagen);
+
+                // Definir las extensiones posibles
+                string[] extensiones = { ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp", ".svg" };
+
+                // Intentar buscar la imagen con cada una de las extensiones posibles
+                foreach (var ext in extensiones)
+                {
+                    string nombreConExtension = nombreImagen + ext;
+                    var resultado = await _imagenesService.ObtenerImagenPorNombre(nombreConExtension);
+
+                    if (resultado.Success)
+                    {
+                        // Si encuentra la imagen con alguna extensión, devuelve true
+                        return Ok(true);
+                    }
+                }
+
+                // Si no encuentra la imagen con ninguna extensión, devuelve false
+                return Ok(false);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error al verificar existencia de imagen: {NombreImagen}", nombreImagen);
+                // En caso de error, devuelve false para mantener consistencia
+                return Ok(false);
+            }
+        }
 
         private string DeterminarContentType(string nombreArchivo)
         {

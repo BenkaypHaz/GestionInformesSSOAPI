@@ -33,5 +33,7 @@ namespace GestionsInformesSSOAPI.Infraestructure.Entities
 
         [Column("Hidratacion")]
         public bool Hidratacion { get; set; } // NUEVO 
+        [Column("Conclusiones")]
+        public string Conclusiones { get; set; }
     }
 }

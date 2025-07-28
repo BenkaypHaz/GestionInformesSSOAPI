@@ -1,5 +1,6 @@
 ﻿using GestionsInformesSSOAPI.Features.Utility;
 using GestionsInformesSSOAPI.Infraestructure.Entities;
+using GestionsInformesSSOAPI.Infraestructure.Modelos;
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
@@ -23,6 +24,17 @@ public class InformesCalorController : ControllerBase
         return Ok(response);
     }
 
+    [HttpPut("{id}/conclusiones")]
+    public async Task<ActionResult<ApiResponse>> ActualizarConclusiones(int id, [FromBody] ActualizarConclusionesDTO dto)
+    {
+        dto.IdInforme = id;
+        var response = await _service.ActualizarConclusionesAsync(dto);
+
+        if (!response.Success)
+            return BadRequest(response);
+
+        return Ok(response);
+    }
 
 }
 

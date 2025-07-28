@@ -26,5 +26,15 @@ namespace GestionsInformesSSOAPI.Infraestructure.Entities
         [Column("temperatura_Minima")]
         [Precision(6, 2)]
         public decimal TemperaturaMinima { get; set; }
+        [Column("Nubosidad")]
+        [StringLength(50)]
+        public string? Nubosidad { get; set; }
+        [Column("Hora_Inicio")]
+        [StringLength(10)]
+        public string? HoraInicio { get; set; }
+
+        [Column("Hora_Finalizacion")]
+        [StringLength(10)]
+        public string? HoraFinalizacion { get; set; }
     }
 }

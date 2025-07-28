@@ -12,6 +12,7 @@ public class InformeRequest
     public decimal Peso_Promedio { get; set; }
     public bool Aclimatacion { get; set; } // NUEVO
     public bool Hidratacion { get; set; } // NUEVO
+    public string Conclusiones { get; set; } // NUEVO
     public List<EquipoUtilizadoRequest> EquiposUtilizados { get; set; }
     public List<DiaEvaluacionRequest> DiasEvaluacion { get; set; }
     public List<TitulosGraficos> TitulosGraficos { get; set; }
@@ -26,7 +27,7 @@ public class DiaEvaluacionRequest
 {
     public string Dia { get; set; }
     public string HumedadRelativa { get; set; }
-    public string ParcialmenteNublado { get; set; }
+    public string Nubosidad { get; set; }
     public string TemperaturaMaxima { get; set; }
     public string TemperaturaMinima { get; set; }
 }

@@ -10,9 +10,9 @@
         public decimal IndiceTermico { get; set; }
         public decimal HumedadPromedio { get; set; }
         public bool GenerarGraficoCampana { get; set; }
-        public decimal TasaEstimada { get; set; } // NUEVO CAMPO
-        public int? IdRopaUtilizada { get; set; } // NUEVO - ID de la ropa
-        public string Postura { get; set; } // NUEVO
-        public string Ambiente { get; set; } // NUEVO
+        public decimal TasaEstimada { get; set; } 
+        public int? IdRopaUtilizada { get; set; } 
+        public string Postura { get; set; } 
+        public string Ambiente { get; set; } 
     }
 }

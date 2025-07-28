@@ -1,4 +1,5 @@
-﻿using GestionsInformesSSOAPI.Infraestructure.DataBases;
+﻿using GestionsInformesSSOAPI.Features.Utility;
+using GestionsInformesSSOAPI.Infraestructure.DataBases;
 using GestionsInformesSSOAPI.Infraestructure.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -22,18 +23,18 @@ namespace GestionsInformesSSOAPI.Features.Repository
                 await _context.Set<PanelDatos_Calor>().AddRangeAsync(panelDatos);
                 await _context.SaveChangesAsync();
 
-                // Después de guardar, calcular PMV/PPD para las áreas que lo requieran
-                var informeId = panelDatos.First().Id_informe;
-                var areasConGraficoCampana = panelDatos
-                    .Where(p => p.GenerarGraficoCampana)
-                    .Select(p => p.id_area)
-                    .ToList();
+                //// Después de guardar, calcular PMV/PPD para las áreas que lo requieran
+                //var informeId = panelDatos.First().Id_informe;
+                //var areasConGraficoCampana = panelDatos
+                //    .Where(p => p.GenerarGraficoCampana)
+                //    .Select(p => p.id_area)
+                //    .ToList();
 
-                if (areasConGraficoCampana.Any())
-                {
-                    // Llamar al método de cálculo solo para las áreas con GenerarGraficoCampana = true
-                    _excelRepository.CalcularYGuardarPMVPorArea(informeId);
-                }
+                //if (areasConGraficoCampana.Any())
+                //{
+                //    // Llamar al método de cálculo solo para las áreas con GenerarGraficoCampana = true
+                //    _excelRepository.CalcularYGuardarPMVPorArea(informeId);
+                //}
 
                 return true;
             }
@@ -50,6 +51,33 @@ namespace GestionsInformesSSOAPI.Features.Repository
                 .OrderBy(p => p.id_area)
                 .ToListAsync();
         }
+
+        public async Task<bool> CalcularPMV(int informeId)
+        {
+            var panelDatos = await _context.Set<PanelDatos_Calor>()
+                     .Where(p => p.Id_informe == informeId)
+                     .ToListAsync();
+
+            var datosTiempo = await _context.Set<DatosTiempo_Calor>()
+                .Where(d => d.Id_informe == informeId)
+                .ToListAsync();
+            // Calcular PMV solo para áreas con GenerarGraficoCampana = true
+            var areasConGraficoCampana = panelDatos
+                .Where(p => p.GenerarGraficoCampana)
+                .Select(p => p.id_area)
+                .ToList();
+
+            if (areasConGraficoCampana.Any())
+            {
+                _excelRepository.CalcularYGuardarPMVPorArea(informeId);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
 
         public async Task<bool> EliminarPorInformeAsync(int informeId)
         {
