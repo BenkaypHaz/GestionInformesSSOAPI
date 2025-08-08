@@ -8,12 +8,14 @@ namespace GestionsInformesSSOAPI.Features.Services
     public class ImagenesService 
     {
         private readonly ImagenesRepository _repo;
+        private readonly InformesCalorRepository _informesRepo;
         private readonly IWebHostEnvironment _env;
         private readonly ILogger<ImagenesService> _logger;
 
-        public ImagenesService(ImagenesRepository repo, IWebHostEnvironment env, ILogger<ImagenesService> logger)
+        public ImagenesService(ImagenesRepository repo, InformesCalorRepository informesRepo, IWebHostEnvironment env, ILogger<ImagenesService> logger)
         {
             _repo = repo;
+            _informesRepo = informesRepo;
             _env = env;
             _logger = logger;
 
@@ -69,7 +71,7 @@ namespace GestionsInformesSSOAPI.Features.Services
                     }
                     else
                     {
-                        fileName = $"{model.InformeId}_{model.Tipo}{Path.GetExtension(file.FileName)}";
+                        fileName = $"{model.InformeId}_{model.Tipo}{Path.GetExtension(file .FileName)}";
                     }
 
                     var path = Path.Combine(folder, fileName);
@@ -77,12 +79,18 @@ namespace GestionsInformesSSOAPI.Features.Services
                     // Log de depuración
                     _logger.LogInformation($"[💾 Guardando] Tipo: {model.Tipo}, Archivo: {fileName}");
 
-                    using (var stream = new FileStream(path, FileMode.Create))
+                    using (var stream = new FileStream(path, FileMode.Create)) 
                     {
                         await file.CopyToAsync(stream);
                     }
 
                     await _repo.RegistrarRuta(model.InformeId, model.Tipo, $"/Images/{fileName}");
+                }
+
+                bool tieneImagenRectal = model.Tipo.Equals("Rectal", StringComparison.OrdinalIgnoreCase);
+                if (tieneImagenRectal)
+                {
+                    await _informesRepo.ActualizarGraficoTempRectalAsync(model.InformeId, tieneImagenRectal);
                 }
 
                 return new ApiResponse(true, "Imágenes guardadas correctamente.");
@@ -163,6 +171,7 @@ namespace GestionsInformesSSOAPI.Features.Services
                 _ => "application/octet-stream"
             };
         }
+
 
     }
 }

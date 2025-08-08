@@ -13,6 +13,7 @@ public class InformeRequest
     public bool Aclimatacion { get; set; } // NUEVO
     public bool Hidratacion { get; set; } // NUEVO
     public string Conclusiones { get; set; } // NUEVO
+    public bool GraficoTempRectal { get; set; } // NUEVO
     public List<EquipoUtilizadoRequest> EquiposUtilizados { get; set; }
     public List<DiaEvaluacionRequest> DiasEvaluacion { get; set; }
     public List<TitulosGraficos> TitulosGraficos { get; set; }
@@ -30,6 +31,8 @@ public class DiaEvaluacionRequest
     public string Nubosidad { get; set; }
     public string TemperaturaMaxima { get; set; }
     public string TemperaturaMinima { get; set; }
+    public string HoraInicio { get; set; }        
+    public string HoraFinalizacion { get; set; }
 }
 
 

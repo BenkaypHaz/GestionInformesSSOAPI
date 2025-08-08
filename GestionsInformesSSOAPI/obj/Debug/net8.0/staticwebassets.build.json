@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iXZWREE7W2rIJzrKX6cQ7SghWKo5i4MD+d619wKWMe4=",
+  "Hash": "qGQIKZM0YD1tmsOyvcaJ1P/8YWyLIkKizrId9hcUiFA=",
   "Source": "GestionsInformesSSOAPI",
   "BasePath": "_content/GestionsInformesSSOAPI",
   "Mode": "Default",
@@ -2978,6 +2978,804 @@
       "OriginalItemSpec": "wwwroot\\Images\\255_Rectal.jpg"
     },
     {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\268_1.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/268_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i9m80nyb5q",
+      "Integrity": "tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\268_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\268_2.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/268_2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i9m80nyb5q",
+      "Integrity": "tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\268_2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\268_3.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/268_3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i9m80nyb5q",
+      "Integrity": "tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\268_3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\268_Agua.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/268_Agua#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hb3jtwzyyg",
+      "Integrity": "c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\268_Agua.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\268_Piel.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/268_Piel#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjxh8xbpf1",
+      "Integrity": "G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\268_Piel.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\268_Rectal.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/268_Rectal#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qn8vk8yutk",
+      "Integrity": "am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\268_Rectal.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\269_1.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/269_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i9m80nyb5q",
+      "Integrity": "tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\269_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\269_2.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/269_2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i9m80nyb5q",
+      "Integrity": "tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\269_2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\269_3.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/269_3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i9m80nyb5q",
+      "Integrity": "tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\269_3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\269_Agua.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/269_Agua#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hb3jtwzyyg",
+      "Integrity": "c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\269_Agua.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\269_Piel.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/269_Piel#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjxh8xbpf1",
+      "Integrity": "G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\269_Piel.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\269_Rectal.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/269_Rectal#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qn8vk8yutk",
+      "Integrity": "am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\269_Rectal.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\270_1.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/270_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjxh8xbpf1",
+      "Integrity": "G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\270_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\270_Agua.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/270_Agua#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjxh8xbpf1",
+      "Integrity": "G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\270_Agua.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\270_Piel.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/270_Piel#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hb3jtwzyyg",
+      "Integrity": "c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\270_Piel.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\270_Rectal.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/270_Rectal#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjxh8xbpf1",
+      "Integrity": "G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\270_Rectal.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\273_1.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/273_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjxh8xbpf1",
+      "Integrity": "G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\273_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\273_Agua.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/273_Agua#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hb3jtwzyyg",
+      "Integrity": "c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\273_Agua.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\273_Piel.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/273_Piel#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjxh8xbpf1",
+      "Integrity": "G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\273_Piel.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\273_Rectal.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/273_Rectal#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qn8vk8yutk",
+      "Integrity": "am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\273_Rectal.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\276_1.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/276_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i9m80nyb5q",
+      "Integrity": "tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\276_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\276_Agua.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/276_Agua#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hb3jtwzyyg",
+      "Integrity": "c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\276_Agua.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\276_Piel.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/276_Piel#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjxh8xbpf1",
+      "Integrity": "G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\276_Piel.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\276_Rectal.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/276_Rectal#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qn8vk8yutk",
+      "Integrity": "am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\276_Rectal.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\281_Piel.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/281_Piel#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjxh8xbpf1",
+      "Integrity": "G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\281_Piel.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\282_1.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/282_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i9m80nyb5q",
+      "Integrity": "tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\282_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\282_2.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/282_2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i9m80nyb5q",
+      "Integrity": "tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\282_2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\282_3.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/282_3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i9m80nyb5q",
+      "Integrity": "tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\282_3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\282_Agua.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/282_Agua#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hb3jtwzyyg",
+      "Integrity": "c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\282_Agua.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\282_Piel.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/282_Piel#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjxh8xbpf1",
+      "Integrity": "G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\282_Piel.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\282_Rectal.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/282_Rectal#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qn8vk8yutk",
+      "Integrity": "am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\282_Rectal.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\285_Rectal.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/285_Rectal#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qn8vk8yutk",
+      "Integrity": "am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\285_Rectal.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\286_1.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/286_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i9m80nyb5q",
+      "Integrity": "tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\286_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\286_2.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/286_2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i9m80nyb5q",
+      "Integrity": "tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\286_2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\286_3.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/286_3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i9m80nyb5q",
+      "Integrity": "tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\286_3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\286_Agua.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/286_Agua#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hb3jtwzyyg",
+      "Integrity": "c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\286_Agua.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\286_Piel.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/286_Piel#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjxh8xbpf1",
+      "Integrity": "G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\286_Piel.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\286_Rectal.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/286_Rectal#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qn8vk8yutk",
+      "Integrity": "am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\286_Rectal.jpg"
+    },
+    {
       "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_168_1.png",
       "SourceId": "GestionsInformesSSOAPI",
       "SourceType": "Discovered",
@@ -4341,6 +5139,321 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\GraficoHumedad_255_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_268_1.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/GraficoHumedad_268_1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "55ximytuqa",
+      "Integrity": "t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\GraficoHumedad_268_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_268_2.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/GraficoHumedad_268_2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "55ximytuqa",
+      "Integrity": "t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\GraficoHumedad_268_2.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_268_3.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/GraficoHumedad_268_3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "55ximytuqa",
+      "Integrity": "t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\GraficoHumedad_268_3.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_269_1.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/GraficoHumedad_269_1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "55ximytuqa",
+      "Integrity": "t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\GraficoHumedad_269_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_269_2.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/GraficoHumedad_269_2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "55ximytuqa",
+      "Integrity": "t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\GraficoHumedad_269_2.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_269_3.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/GraficoHumedad_269_3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "55ximytuqa",
+      "Integrity": "t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\GraficoHumedad_269_3.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_270_1.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/GraficoHumedad_270_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjxh8xbpf1",
+      "Integrity": "G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\GraficoHumedad_270_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_273_1.jpg",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/GraficoHumedad_273_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjxh8xbpf1",
+      "Integrity": "G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\GraficoHumedad_273_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_276_1.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/GraficoHumedad_276_1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "55ximytuqa",
+      "Integrity": "t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\GraficoHumedad_276_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_282_1.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/GraficoHumedad_282_1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "55ximytuqa",
+      "Integrity": "t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\GraficoHumedad_282_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_282_2.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/GraficoHumedad_282_2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "55ximytuqa",
+      "Integrity": "t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\GraficoHumedad_282_2.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_282_3.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/GraficoHumedad_282_3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "55ximytuqa",
+      "Integrity": "t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\GraficoHumedad_282_3.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_286_1.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/GraficoHumedad_286_1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "55ximytuqa",
+      "Integrity": "t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\GraficoHumedad_286_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_286_2.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/GraficoHumedad_286_2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "55ximytuqa",
+      "Integrity": "t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\GraficoHumedad_286_2.png"
+    },
+    {
+      "Identity": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_286_3.png",
+      "SourceId": "GestionsInformesSSOAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\",
+      "BasePath": "_content/GestionsInformesSSOAPI",
+      "RelativePath": "Images/GraficoHumedad_286_3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "55ximytuqa",
+      "Integrity": "t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\GraficoHumedad_286_3.png"
     }
   ],
   "Endpoints": [
@@ -15907,6 +17020,3122 @@
       ]
     },
     {
+      "Route": "Images/268_1.i9m80nyb5q.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\268_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:26:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i9m80nyb5q"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/268_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/268_1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\268_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:26:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/268_2.i9m80nyb5q.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\268_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:26:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i9m80nyb5q"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/268_2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/268_2.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\268_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:26:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/268_3.i9m80nyb5q.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\268_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:26:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i9m80nyb5q"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/268_3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/268_3.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\268_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:26:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/268_Agua.hb3jtwzyyg.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\268_Agua.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:26:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hb3jtwzyyg"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/268_Agua.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/268_Agua.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\268_Agua.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:26:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/268_Piel.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\268_Piel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:26:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/268_Piel.vjxh8xbpf1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\268_Piel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:26:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjxh8xbpf1"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/268_Piel.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/268_Rectal.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\268_Rectal.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:26:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/268_Rectal.qn8vk8yutk.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\268_Rectal.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:26:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qn8vk8yutk"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/268_Rectal.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/269_1.i9m80nyb5q.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\269_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i9m80nyb5q"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/269_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/269_1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\269_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/269_2.i9m80nyb5q.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\269_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i9m80nyb5q"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/269_2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/269_2.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\269_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/269_3.i9m80nyb5q.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\269_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i9m80nyb5q"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/269_3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/269_3.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\269_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/269_Agua.hb3jtwzyyg.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\269_Agua.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hb3jtwzyyg"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/269_Agua.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/269_Agua.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\269_Agua.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/269_Piel.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\269_Piel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/269_Piel.vjxh8xbpf1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\269_Piel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjxh8xbpf1"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/269_Piel.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/269_Rectal.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\269_Rectal.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/269_Rectal.qn8vk8yutk.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\269_Rectal.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qn8vk8yutk"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/269_Rectal.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/270_1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\270_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 14:13:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/270_1.vjxh8xbpf1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\270_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 14:13:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjxh8xbpf1"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/270_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/270_Agua.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\270_Agua.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 14:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/270_Agua.vjxh8xbpf1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\270_Agua.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 14:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjxh8xbpf1"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/270_Agua.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/270_Piel.hb3jtwzyyg.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\270_Piel.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 14:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hb3jtwzyyg"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/270_Piel.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/270_Piel.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\270_Piel.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 14:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/270_Rectal.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\270_Rectal.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 14:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/270_Rectal.vjxh8xbpf1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\270_Rectal.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 14:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjxh8xbpf1"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/270_Rectal.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/273_1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\273_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:47:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/273_1.vjxh8xbpf1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\273_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:47:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjxh8xbpf1"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/273_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/273_Agua.hb3jtwzyyg.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\273_Agua.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:47:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hb3jtwzyyg"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/273_Agua.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/273_Agua.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\273_Agua.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:47:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/273_Piel.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\273_Piel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:47:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/273_Piel.vjxh8xbpf1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\273_Piel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:47:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjxh8xbpf1"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/273_Piel.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/273_Rectal.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\273_Rectal.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:47:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/273_Rectal.qn8vk8yutk.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\273_Rectal.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:47:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qn8vk8yutk"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/273_Rectal.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/276_1.i9m80nyb5q.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\276_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:57:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i9m80nyb5q"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/276_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/276_1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\276_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:57:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/276_Agua.hb3jtwzyyg.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\276_Agua.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:57:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hb3jtwzyyg"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/276_Agua.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/276_Agua.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\276_Agua.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:57:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/276_Piel.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\276_Piel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:57:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/276_Piel.vjxh8xbpf1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\276_Piel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:57:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjxh8xbpf1"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/276_Piel.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/276_Rectal.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\276_Rectal.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:57:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/276_Rectal.qn8vk8yutk.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\276_Rectal.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:57:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qn8vk8yutk"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/276_Rectal.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/281_Piel.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\281_Piel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:54:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/281_Piel.vjxh8xbpf1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\281_Piel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:54:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjxh8xbpf1"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/281_Piel.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/282_1.i9m80nyb5q.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\282_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:55:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i9m80nyb5q"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/282_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/282_1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\282_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:55:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/282_2.i9m80nyb5q.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\282_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:55:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i9m80nyb5q"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/282_2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/282_2.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\282_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:55:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/282_3.i9m80nyb5q.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\282_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:55:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i9m80nyb5q"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/282_3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/282_3.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\282_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:55:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/282_Agua.hb3jtwzyyg.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\282_Agua.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:55:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hb3jtwzyyg"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/282_Agua.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/282_Agua.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\282_Agua.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:55:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/282_Piel.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\282_Piel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:55:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/282_Piel.vjxh8xbpf1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\282_Piel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:55:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjxh8xbpf1"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/282_Piel.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/282_Rectal.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\282_Rectal.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:55:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/282_Rectal.qn8vk8yutk.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\282_Rectal.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:55:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qn8vk8yutk"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/282_Rectal.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/285_Rectal.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\285_Rectal.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:00:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/285_Rectal.qn8vk8yutk.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\285_Rectal.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:00:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qn8vk8yutk"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/285_Rectal.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/286_1.i9m80nyb5q.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\286_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i9m80nyb5q"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/286_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/286_1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\286_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/286_2.i9m80nyb5q.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\286_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i9m80nyb5q"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/286_2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/286_2.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\286_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/286_3.i9m80nyb5q.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\286_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i9m80nyb5q"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/286_3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/286_3.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\286_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "790610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tr6U7EPyzFsgK6SOZirKYbeEPCuIyu0kbW5K8uDoq3E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/286_Agua.hb3jtwzyyg.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\286_Agua.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hb3jtwzyyg"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/286_Agua.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/286_Agua.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\286_Agua.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/vwECOy11//orUKBp1BPLoqMVpp/YlrIeWZO1AyRcI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/286_Piel.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\286_Piel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/286_Piel.vjxh8xbpf1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\286_Piel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjxh8xbpf1"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/286_Piel.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/286_Rectal.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\286_Rectal.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/286_Rectal.qn8vk8yutk.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\286_Rectal.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qn8vk8yutk"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/286_Rectal.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-am4bnWUDkG/RRjZhUTMz+iib07ZhL9Zm7axVdyir/UY="
+        }
+      ]
+    },
+    {
       "Route": "Images/GraficoHumedad_168_1.55ximytuqa.png",
       "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_168_1.png",
       "Selectors": [],
@@ -21233,6 +25462,1236 @@
         {
           "Name": "integrity",
           "Value": "sha256-ZZ3b28wI5uZztxSiUoZQLiadAkHVPMVj3TyLY4VIi9k="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_268_1.55ximytuqa.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_268_1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:26:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "55ximytuqa"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/GraficoHumedad_268_1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_268_1.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_268_1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:26:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_268_2.55ximytuqa.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_268_2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:26:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "55ximytuqa"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/GraficoHumedad_268_2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_268_2.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_268_2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:26:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_268_3.55ximytuqa.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_268_3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:26:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "55ximytuqa"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/GraficoHumedad_268_3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_268_3.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_268_3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:26:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_269_1.55ximytuqa.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_269_1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "55ximytuqa"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/GraficoHumedad_269_1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_269_1.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_269_1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_269_2.55ximytuqa.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_269_2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "55ximytuqa"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/GraficoHumedad_269_2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_269_2.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_269_2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_269_3.55ximytuqa.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_269_3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "55ximytuqa"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/GraficoHumedad_269_3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_269_3.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_269_3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 22:29:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_270_1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_270_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 14:13:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_270_1.vjxh8xbpf1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_270_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 14:13:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjxh8xbpf1"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/GraficoHumedad_270_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_273_1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_273_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:47:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_273_1.vjxh8xbpf1.jpg",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_273_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:47:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjxh8xbpf1"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/GraficoHumedad_273_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+DV4ZaL7GAm2Y8seQL8xCTofwF9pcKO1Mci7DD4R1w="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_276_1.55ximytuqa.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_276_1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:57:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "55ximytuqa"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/GraficoHumedad_276_1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_276_1.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_276_1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 15:57:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_282_1.55ximytuqa.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_282_1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:55:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "55ximytuqa"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/GraficoHumedad_282_1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_282_1.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_282_1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:55:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_282_2.55ximytuqa.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_282_2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:55:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "55ximytuqa"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/GraficoHumedad_282_2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_282_2.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_282_2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:55:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_282_3.55ximytuqa.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_282_3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "55ximytuqa"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/GraficoHumedad_282_3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_282_3.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_282_3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 13:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_286_1.55ximytuqa.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_286_1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "55ximytuqa"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/GraficoHumedad_286_1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_286_1.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_286_1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_286_2.55ximytuqa.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_286_2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "55ximytuqa"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/GraficoHumedad_286_2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_286_2.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_286_2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_286_3.55ximytuqa.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_286_3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "55ximytuqa"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/GraficoHumedad_286_3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/GraficoHumedad_286_3.png",
+      "AssetFile": "C:\\Users\\informatica3\\Desktop\\Proyectos\\GestionInformesSSOAPI\\GestionsInformesSSOAPI\\wwwroot\\Images\\GraficoHumedad_286_3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Aug 2025 21:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5mSCpDiveeLElAadM/R2fw0IUB+tX0zSGuHy9QNVMU="
         }
       ]
     }

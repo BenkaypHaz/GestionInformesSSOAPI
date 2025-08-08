@@ -117,4 +117,17 @@ public class InformesCalorRepository
         await _context.SaveChangesAsync();
         return true;
     }
+
+    public async Task<bool> ActualizarGraficoTempRectalAsync(int informeId, bool tieneGrafico)
+    {
+        var informe = await _context.InformesCalor
+            .FirstOrDefaultAsync(i => i.IdInfo == informeId);
+
+        if (informe == null)
+            return false;
+
+        informe.GraficoTempRectal = tieneGrafico;
+        await _context.SaveChangesAsync();
+        return true;
+    }
 }

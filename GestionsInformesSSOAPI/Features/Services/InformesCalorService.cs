@@ -26,7 +26,8 @@ public class InformesCalorService
                 Peso_Promedio = request.Peso_Promedio,
                 Aclimatacion = request.Aclimatacion, // NUEVO
                 Hidratacion = request.Hidratacion, // NUEVO
-                Conclusiones = request.Conclusiones // NUEVO
+                Conclusiones = request.Conclusiones, // NUEVO
+                GraficoTempRectal = request.GraficoTempRectal
             };
 
             // Guardar informe y obtener su ID generado
@@ -47,7 +48,9 @@ public class InformesCalorService
                 HumedadRelativa = Convert.ToDecimal(dia.HumedadRelativa),
                 TemperaturaMaxima = Convert.ToDecimal(dia.TemperaturaMaxima),
                 TemperaturaMinima = Convert.ToDecimal(dia.TemperaturaMinima),
-                Nubosidad = dia.Nubosidad
+                Nubosidad = dia.Nubosidad,
+                HoraInicio = dia.HoraInicio,          
+                HoraFinalizacion = dia.HoraFinalizacion 
             }).ToList();
             await _repository.GuardarClimaAsync(tablasClima);
             if (request.TitulosGraficos != null && request.TitulosGraficos.Any())

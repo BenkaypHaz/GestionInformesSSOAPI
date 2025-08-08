@@ -35,5 +35,8 @@ namespace GestionsInformesSSOAPI.Infraestructure.Entities
         public bool Hidratacion { get; set; } // NUEVO 
         [Column("Conclusiones")]
         public string Conclusiones { get; set; }
+
+        [Column("GraficoTempRectal")]
+        public bool GraficoTempRectal { get; set; }
     }
 }

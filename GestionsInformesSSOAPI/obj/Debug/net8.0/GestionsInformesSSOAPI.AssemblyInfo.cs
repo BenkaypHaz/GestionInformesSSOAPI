@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GestionsInformesSSOAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d06acb159fb93b12f0c0f63bb10d14e20a8b9df9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5446dfc312f54a8426796dc817f3962fd256d1d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("GestionsInformesSSOAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GestionsInformesSSOAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
